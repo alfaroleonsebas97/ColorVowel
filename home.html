@@ -3,32 +3,31 @@
 
 <head>
     <title>Vocal Vowel</title>
+    <link rel="stylesheet" media="screen" href="css/common.css" />
+    <link rel="stylesheet" media="screen" href="css/home.css" />
 </head>
 
 <body>
     <header>
-        <h1>Vocal Vowel</h1>
-        <img id="vocal_vowel_logo" src=recursos/vocal_vowel_logo.svg" alt="vocal_vowel_logo"/>
-		<button class="help_button" type="button">
-			<img class="help_button_img" src="recursos/help_button.svg" alt="Help button" height="30"/>
-		</button>
+        <h1 id="title">Vocal Vowel</h1>
+        <img id="vocal_vowel_logo" src=recursos/vocal_vowel_logo.svg" alt="vocal_vowel_logo" />
+        <button class="help_button" type="button">
+            <img class="help_button_img" src="recursos/help_button.svg" alt="Help button" height="30" />
+        </button>
     </header>
 
-    <nav>
-
-    </nav>
-
-    <form id="subject_form" action="colorVowel.html" method="post">
-        <label for="subject">Select a subject:</label>
-        <select name="subjects" id="subjects">
-            <option value="family">family</option>
-            <option value="house">house</option>
-        </select>
-    </form>
-
-    <button id="button_play" onclick="location.href='colorVowel.html'" type="button">
-        PLAY
-    </button>
+    <section id="main_section">
+        <div id="main_container">
+            <form id="subject_form" action="colorVowel.html" method="post">
+                <label for="subject">Select a subject:</label>
+                <select name="subject" id="subjects">
+                    <option value="family">family</option>
+                    <option value="house">house</option>
+                </select><br><br>
+                <input type="submit" value="PLAY">
+            </form>
+        </div>
+    </section>
 
     <footer>
         2022 By Sebastián Alfaro and Susy Mora
