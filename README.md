@@ -10,4 +10,4 @@ Este proyecto consiste en una adaptación de la herramienta Color Vowel Chart en
 
 El Color Vowel Chart es un organizador visual para el inglés hablado. Cada color representa un sonido de vocal, con lo que el estudiante que utilice la plataforma podrá practicar la pronunciación asociando las palabras que aprende a un color del gráfico de colores.
 
-![Color Vowel Chart](recursos/Palette.svg)
+![Color Vowel Chart](recursos/palette.png)
