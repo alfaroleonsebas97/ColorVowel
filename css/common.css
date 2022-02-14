@@ -1,3 +1,8 @@
+/*insert fonts here:
+@import url();
+*/
+
+/*define colors*/
 :root {
     /* Colors Palette */
     --dark_blue: #233d4d;
@@ -9,29 +14,29 @@
 
 html {
     height: 100vh; /* 100% viewport height */
-
+    font-family: sans-serif;
 }
-  
+
 body {
     height: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
-    height: 15%;
     background-color: var(--dark_blue);
 }
 
-#main_section {
-    height: 75%;
+#page_content {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
 }
 
 footer {
-    height: 10%;
     /*border-top: 1px solid black;*/
     color: white;
     background-color: var(--dark_blue);
@@ -43,7 +48,7 @@ footer {
 
 #main_container {
     width: 50%;
-    height: 70%;    
+    height: 70%;
     background-color: var(--green);
     border: 3px solid black;
     border-radius: 25px;
