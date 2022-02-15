@@ -1,14 +1,14 @@
-/*insert fonts here:
-@import url();
-*/
-
 /*define colors*/
 :root {
     /* Colors Palette */
-    --greenX: #cee9a5;
-    --greeny: #9CD34A;
-    --celeste: #52CCFE;
-    --yellowX: #f6d860;
+    --dark_blue: #233d4d;
+    --light_blue: #6fd6ff;
+    --swamp_green: #619b8a;
+    --light_green: #e8fdc8;
+    --green: #a3db4e;
+    --dark_yellow: #af8a26;
+    --yellow: #FFCE00;
+    --orange: #fe7f2d;
 }
 
 html {
@@ -25,7 +25,12 @@ body {
 }
 
 header {
-    background-color: var(--greeny);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: var(--swamp_green);
+    border-bottom: 1px solid var(--dark_blue);
 }
 
 #page_content {
@@ -33,11 +38,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--light_green);
 }
 
 footer {
-    /*border-top: 1px solid black;*/
-    background-color: var(--greeny);
+    border-top: 1px solid var(--dark_blue);
+    background-color: var(--swamp_green);
 }
 
 #title {
@@ -47,11 +53,101 @@ footer {
 #main_container {
     width: 50%;
     height: 70%;
-    background-color: var(--greenX);
-    border: 3px solid black;
-    border-radius: 25px;
+    background-color: var(--green);
+    border: 2px solid black;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
 }
+
+#vocal_vowel_img {
+    margin: 1%;
+}
+
+#main_container:hover {
+    box-shadow: 5px 5px 5px var(--yellow);
+}
+
+#color_vowel_img {
+    display:flex;
+    flex: 0 1 auto;
+    align-self: center;
+    margin: 1%;
+}
+
+.help_button_img {
+    transition-duration: 0.1s;
+    float: right;
+    background-color: var(--yellow);
+    border-radius: 100%;
+    transform: translateY(-2px);
+}
+  
+.help_button {
+    flex: 0 1 auto;
+    align-self: auto;
+    position: absolute;
+    background-color: var(--yellow);
+    border: 2px solid black;
+    border-radius: 100%;
+    right: 1%;
+    padding: 0;
+    cursor: pointer;
+}
+  
+.help_button:hover {
+    border: 2px solid black;
+}
+  
+.help_button:hover .help_button_img {
+    transform: translateY(-5px);
+}
+  
+.help_button:active .help_button_img {
+    transform: translateY(-2px);
+}
+
+
+
+/*
+  Principal Buttons
+  Adaptation from https://www.joshwcomeau.com/animation/3d-button/
+*/
+.principal_button_text {
+    text-align: center;
+    transition-duration: 0.1s;
+    color: black;
+    display: block;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: var(--yellow);
+    transform: translateY(-2px);
+    border: 1px solid black;
+    font-weight: bold;
+  }
+  
+  .principal_button {
+    border: 2px solid gray;
+    display: inline-block;
+    font-weight: bold;
+    background-color: var(--dark_yellow);
+    border-radius: 10px;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .principal_button:hover {
+    border: 2px solid black;
+  }
+  
+  .principal_button:hover .principal_button_text {
+    transform: translateY(-7px);
+  }
+  
+  .principal_button:active .principal_button_text {
+    transform: translateY(-2px);
+  }
+  
