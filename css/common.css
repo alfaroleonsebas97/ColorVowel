@@ -28,7 +28,6 @@ body {
 header {
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
     background-color: var(--swamp_green);
     box-shadow: 0px 10px 10px -7px black, 5px 5px 15px 5px rgba(0,0,0,0);
@@ -39,9 +38,6 @@ header {
 }
 
 #color_vowel_img {
-    display:flex;
-    flex: 0 1 auto;
-    align-self: center;
     margin: 1%;
 }
 
@@ -70,8 +66,8 @@ footer a:visited {
 }
 
 #main_container {
-    width: 60%;
-    height: 85%;
+    width: 70%;
+    height: 90%;
     background-color: var(--green);
     border-radius: 10px;
     display: flex;
@@ -130,37 +126,21 @@ p {
 }
   
 .button {
+    width: 85%;
+    height: 12%;
     border: 2px solid var(--dark_blue);
     color: var(--dark_blue);
     background-color: var(--light_swamp_green);
     border-radius: 3rem;
     font-family: roboto;
-    font-size: 1.5rem;
-    font-weight: 30;
+    font-size: 3.5vh;
     overflow: hidden;
-    padding: 1rem 4rem;
     transition: 0.2s transform ease-in-out;
+    padding: auto;
 }
-
 
 .button:hover {
     border: 2px solid var(--dark_blue);
     color: var(--yellow);
     transform: scale(1.05);
-}
-  
-
-.button::after {
-    background-color: var(--dark_blue);
-    border-radius: 3rem;
-    content: '';
-    transform: translate(-100%, 0) rotate(10deg);
-    transform-origin: top left;
-    transition: 0.2s transform ease-out;
-    will-change: transform;
-    z-index: -1;
-}
-
-.button:hover::after {
-    transform: translate(0, 0);
 }

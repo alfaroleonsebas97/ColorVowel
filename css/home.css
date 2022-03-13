@@ -1,13 +1,21 @@
 #subject_form {
     display: flex;
+    width: 35%;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: space-around;
-} 
+}
+
+#select_container {
+    width: 100%;
+}
 
 #subjects {
+    padding: 0;
+    border-radius: 10px;
     width: 100%;
     padding: 5%;
+    border: 1px solid black;
     border: 0 !important;
     background-color: var(--light_green);
     /* needed */
@@ -20,4 +28,3 @@
     background-position: calc(100% - 1.3em) center;
     background-repeat: no-repeat;
 }
-
