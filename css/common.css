@@ -38,7 +38,8 @@ header {
 }
 
 #color_vowel_img {
-    margin: 1%;
+    width: 28%;
+    margin-bottom: 1%;
 }
 
 footer {
@@ -99,7 +100,7 @@ footer a:visited {
     padding: 0;
     cursor: pointer;
 }
-  
+
 .help_button:hover {
     border: 2px solid black;
 }
