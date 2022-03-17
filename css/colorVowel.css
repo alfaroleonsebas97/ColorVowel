@@ -15,7 +15,7 @@
 #question {
     text-align: center;
     margin: 0;
-    font-size: larger;
+    font-size: 3.5vmin;
     box-sizing: border-box;
     grid-column: 2;
 }
@@ -30,6 +30,8 @@
     padding: 0.5%;
     box-sizing: border-box;
     text-align: center;
+    font-size: 4vmin;
+    font-weight: bold;
 }
 
 #word_space {
@@ -92,6 +94,7 @@
     text-align: center;
     background-color: #f1f1f1;
     transition: 0.2s transform ease-in-out;
+    font-size: 2.2vmin;
 }
 
 .card:hover {
