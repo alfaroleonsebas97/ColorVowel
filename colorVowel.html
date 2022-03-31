@@ -7,83 +7,192 @@
     <link rel="stylesheet" media="screen" href="css/common.css" />
     <link rel="stylesheet" media="screen" href="css/colorVowel.css" />
     <script src="https://kit.fontawesome.com/ed8fdc8e60.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
-        <img id="color_vowel_img" src="recursos/color_vowel_img.png" alt="color_vowel_img" />
-        <button class="help_button" type="button">
-			<img class="help_button_img" src="recursos/help_button.svg" alt="Help button" height="30vw"/>
-		</button>
+        <i class="fa-solid fa-language fa-2x switch-lang"></i>
+        <a id="title_img" href="home.html"><img src="recursos/color_vowel_img.png." alt="color_vowel_img"></a>
+        <i id="questions" class="fa-solid fa-circle-question fa-2x"></i>
     </header>
 
     <section id="page_content">
         <div id="main_container">
+
             <div id="vocabulary_section">
-                <i id="speak_icon" class="fa-solid fa-volume-high"></i>
-                <p id="random_word">sister</p>
-                <i id="refresh_icon" class="fa-solid fa-arrows-rotate"></i>
-                <img id="word_img" src="" alt="word_img"/>
+                <div id="word_space">
+                    <i id="speak_icon" class="fa-solid fa-volume-high "></i>
+                    <div id="random_word">sister</div>
+                    <i id="refresh_icon" class="fa-solid fa-arrows-rotate"></i>
+                </div>
+
+                <img id="word_img" src="recursos/palette.png" alt="word_img" width="12%" />
+
+                <p lang="en" id="question">What color do you hear?</p>
+                <p lang="es" id="question">¿Qué color escucha?</p>
             </div>
-            <p id="question">What color do you hear?</p>
-            <div id="vocal_vowel_board">
-                <div class="cell">
-                    <img src="" alt="color"/>
+
+            <div lang="en" id="table">
+
+                <div class="row">
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
                 </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
+
+                <div class="row">
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
                 </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
+
+                <div class="row">
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
                 </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
-                <div class="cell">
-                    <img src="" alt="color"/>
-                </div>
+
             </div>
+
+            <div lang="es" id="table">
+
+                <div class="row">
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                    <div class="card">
+                        <img class="color_img" src="recursos/palette.png" alt="color_img" style="width:100%">
+                        <p><b>Color</b></p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </section>
 
     <footer>
         <div id="copyright_in_footer">
-			<p><small><i class="far fa-copyright"></i> 2022 By Sebastián Alfaro and Susy Mora.</small></p>
-			<p><small>Adaptation for academic purposes.</small></p>
-		</div>
-		<button id="credits_button">Credits</button>
+            <p lang="en"><small><i class="far fa-copyright"></i> 2022 By Sebastián Alfaro and Susy Mora.</small></p>
+            <p lang="es"><small><i class="far fa-copyright"></i> 2022 Por Sebastián Alfaro y Susy Mora.</small></p>
+            <p lang="en"><small>Adaptation for academic purposes.</small></p>
+            <p lang="es"><small>Adaptación con fines educativos.</small></p>
+        </div>
+        <button lang="en" id="credits_button">Credits</button>
+        <button lang="es" id="credits_button">Créditos</button>
     </footer>
-
+    <script src="js/colorVowel.js"></script>
 </body>
 
 </html>
