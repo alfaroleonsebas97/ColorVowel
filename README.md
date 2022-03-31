@@ -4,7 +4,7 @@ UCR - TCU - III Semestre 2021
 
 Colaboradores:
 - Sebastián Alfaro León B60210
-- Susy Mora Alvarado
+- Susy Mora Alvarado B85181
 
 Este proyecto consiste en una adaptación de la herramienta Color Vowel Chart en una aplicación web, con fines académicos, sin fines de lucro, con el propósito de utilizarse como material de apoyo en el aprendizaje del inglés en las escuelas.
 
