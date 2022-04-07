@@ -80,14 +80,14 @@
 .row {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 30%;
     width: 100%;
 }
 
 .card {
-    margin-left: 1%;
-    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 16%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
